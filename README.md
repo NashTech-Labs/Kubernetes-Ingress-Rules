@@ -1,16 +1,13 @@
 # Kubernetes-Ingress-Rules
  By creating ingress rules you can access your applications through domain name instead of accessing them through IP addresses and ports
 PREREQUISITES FOR THIS
-- Minikube Cluster
-- Kubectl Installed
+- Kubernetes Cluster
+- Kubectl connect
 
 What is Ingress?
 Ingress is an API object that allows the external traffic to the Kubernetes cluster based on the routing mechanism. It provides routing rules to manage external users’ access in a Kubernetes cluster via HTTP/HTTPS.
 
-First, start your minikube cluster
-- minikube start
-
-then, enable nginx ingress controller
+Enable nginx ingress controller
 - minikube addons enable ingress
 
 check the namespaces
